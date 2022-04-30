@@ -8,7 +8,7 @@ import PIL.Image
 import os
 
 
-CREW_NAME = 'aespa-'
+CREW_NAME = 'BlackPinkBp'
 
 
 event_schedule = sched.scheduler(time.time, time.sleep)
