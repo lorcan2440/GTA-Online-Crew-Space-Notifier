@@ -10,9 +10,7 @@ event_schedule = sched.scheduler(time.time, time.sleep)
 logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
                     filename='check_crew_spaces.log', encoding='utf-8', level=logging.DEBUG)
 
-# https://prod.cloud.rockstargames.com/crews/sc/2206/28976216/publish/emblem/emblem_128.png
-
-CREW_NAME = 'BlackPinkBp'
+CREW_NAME = 'BlackPinkBp'  # crew name to check for spaces in
 
 
 def check_for_space_in_crew():
